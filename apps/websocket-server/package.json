@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node dist/index.js"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "tsc",
+  "dev": "node dist/index.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,5 +16,9 @@
     "@types/ws": "^8.5.12",
     "redis": "^4.7.0",
     "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.6",
+    "typescript": "^5.5.4"
   }
 }
